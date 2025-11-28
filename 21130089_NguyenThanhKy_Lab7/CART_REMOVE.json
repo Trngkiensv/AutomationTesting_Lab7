@@ -1,0 +1,135 @@
+{
+  "autoRetry": true,
+  "browser": "chrome",
+  "browserVersion": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+  "dataSource": null,
+  "disableVisuals": false,
+  "disallowInsecureCertificates": false,
+  "extensionVersion": "7.0.3",
+  "failOnJavaScriptError": false,
+  "filters": [],
+  "finalDelay": 5000,
+  "globalStepDelay": 250,
+  "httpHeaders": [],
+  "importOnly": false,
+  "language": null,
+  "links": [],
+  "maxAjaxDelay": 10000,
+  "maxConcurrentDataRows": null,
+  "maxWaitDelay": 15000,
+  "name": "Cart",
+  "notifications": null,
+  "publicStatusEnabled": false,
+  "region": "us-east-1",
+  "screenshotCompareEnabled": true,
+  "screenshotCompareThreshold": 0.1,
+  "startUrl": "https://automationexercise.com/",
+  "steps": [
+    {
+      "command": "click",
+      "condition": null,
+      "optional": false,
+      "private": false,
+      "sequence": 0,
+      "target": "div:nth-of-type(2) > .product-image-wrapper > .single-products > div:nth-of-type(2) > div > a.btn.btn-default.add-to-cart",
+      "extra": {
+        "source": {
+          "test": "691873a33426ec0731cc6cb9",
+          "sequence": 0
+        },
+        "rootSequence": 0
+      },
+      "notes": ""
+    },
+    {
+      "command": "click",
+      "condition": null,
+      "optional": false,
+      "private": false,
+      "sequence": 1,
+      "target": "#cartModal",
+      "extra": {
+        "source": {
+          "test": "691873a33426ec0731cc6cb9",
+          "sequence": 1
+        },
+        "rootSequence": 1
+      },
+      "notes": ""
+    },
+    {
+      "command": "click",
+      "condition": null,
+      "optional": false,
+      "private": false,
+      "sequence": 2,
+      "target": "a[href=\"/view_cart\"] > u",
+      "extra": {
+        "source": {
+          "test": "691873a33426ec0731cc6cb9",
+          "sequence": 2
+        },
+        "rootSequence": 2
+      },
+      "notes": ""
+    },
+    {
+      "command": "click",
+      "condition": null,
+      "optional": false,
+      "private": false,
+      "sequence": 3,
+      "target": "i.fa.fa-times",
+      "extra": {
+        "source": {
+          "test": "691873a33426ec0731cc6cb9",
+          "sequence": 3
+        },
+        "rootSequence": 3
+      },
+      "notes": ""
+    },
+    {
+      "command": "assertElementNotPresent",
+      "condition": null,
+      "optional": false,
+      "private": false,
+      "sequence": 4,
+      "target": "tr#product-1",
+      "value": "",
+      "variableName": "",
+      "extra": {
+        "source": {
+          "test": "691873a33426ec0731cc6cb9",
+          "sequence": 4
+        },
+        "rootSequence": 4
+      },
+      "notes": ""
+    },
+    {
+      "command": "assertText",
+      "condition": null,
+      "optional": false,
+      "private": false,
+      "sequence": 5,
+      "target": "#empty_cart p.text-center",
+      "value": "Cart is empty! Click here to buy products.",
+      "variableName": "",
+      "extra": {
+        "source": {
+          "test": "691873a33426ec0731cc6cb9",
+          "sequence": 5
+        },
+        "rootSequence": 5
+      },
+      "notes": ""
+    }
+  ],
+  "testFrequency": 0,
+  "testFrequencyAdvanced": [],
+  "viewportSize": {
+    "width": 1280,
+    "height": 800
+  }
+}

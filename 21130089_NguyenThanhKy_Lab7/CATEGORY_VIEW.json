@@ -1,0 +1,142 @@
+{
+    "autoRetry": true,
+    "browser": "chrome",
+    "browserVersion": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+    "dataSource": null,
+    "disableVisuals": false,
+    "disallowInsecureCertificates": false,
+    "extensionVersion": "7.0.3",
+    "failOnJavaScriptError": false,
+    "filters": [],
+    "finalDelay": 5000,
+    "globalStepDelay": 250,
+    "httpHeaders": [],
+    "importOnly": false,
+    "language": null,
+    "links": [],
+    "maxAjaxDelay": 10000,
+    "maxConcurrentDataRows": null,
+    "maxWaitDelay": 15000,
+    "name": "New",
+    "notifications": null,
+    "publicStatusEnabled": false,
+    "region": "us-east-1",
+    "screenshotCompareEnabled": true,
+    "screenshotCompareThreshold": 0.1,
+    "startUrl": "https://automationexercise.com/",
+    "steps": [
+        {
+            "command": "click",
+            "condition": null,
+            "optional": false,
+            "private": false,
+            "sequence": 0,
+            "target": "a[href=\"#Women\"] > .badge.pull-right > i.fa.fa-plus",
+            "extra": {
+                "source": {
+                    "test": "69186a3e3426ec0731cb9078",
+                    "sequence": 0
+                },
+                "rootSequence": 0
+            },
+            "notes": ""
+        },
+        {
+            "command": "click",
+            "condition": null,
+            "optional": false,
+            "private": false,
+            "sequence": 1,
+            "target": "a[href=\"/category_products/1\"]",
+            "extra": {
+                "source": {
+                    "test": "69186a3e3426ec0731cb9078",
+                    "sequence": 1
+                },
+                "rootSequence": 1
+            },
+            "notes": ""
+        },
+        {
+            "command": "assertText",
+            "condition": null,
+            "optional": false,
+            "private": false,
+            "sequence": 2,
+            "target": "h2.title.text-center",
+            "value": "Women - Dress Products",
+            "variableName": "",
+            "extra": {
+                "source": {
+                    "test": "69186a3e3426ec0731cb9078",
+                    "sequence": 2
+                },
+                "rootSequence": 2
+            },
+            "notes": ""
+        },
+        {
+            "command": "click",
+            "condition": null,
+            "optional": false,
+            "private": false,
+            "sequence": 3,
+            "target": "a[href=\"#Men\"] > .badge.pull-right > i.fa.fa-plus",
+            "extra": {
+                "source": {
+                    "test": "69186a3e3426ec0731cb9078",
+                    "sequence": 3
+                },
+                "rootSequence": 3
+            },
+            "notes": ""
+        },
+        {
+            "command": "click",
+            "condition": null,
+            "optional": false,
+            "private": false,
+            "sequence": 4,
+            "target": [
+                {
+                    "selector": "//a[contains(text(), \"Tshirts\")]"
+                },
+                {
+                    "selector": "a[href=\"/category_products/3\"]"
+                }
+            ],
+            "extra": {
+                "source": {
+                    "test": "69186a3e3426ec0731cb9078",
+                    "sequence": 4
+                },
+                "rootSequence": 4
+            },
+            "notes": ""
+        },
+        {
+            "command": "assertText",
+            "condition": null,
+            "optional": false,
+            "private": false,
+            "sequence": 5,
+            "target": "h2.title.text-center",
+            "value": "Men - Tshirts Products",
+            "variableName": "",
+            "extra": {
+                "source": {
+                    "test": "69186a3e3426ec0731cb9078",
+                    "sequence": 5
+                },
+                "rootSequence": 5
+            },
+            "notes": ""
+        }
+    ],
+    "testFrequency": 0,
+    "testFrequencyAdvanced": [],
+    "viewportSize": {
+        "width": 1280,
+        "height": 800
+    }
+}
