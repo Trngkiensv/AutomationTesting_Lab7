@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Blue Top_cart_quantity_delete</name>
+   <tag></tag>
+   <elementGuidId>5bc99a84-990c-4ea7-8428-98b72f9ed386</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.cart_quantity_delete</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[@id='product-1']/td[6]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=cell[name=&quot;&quot;i] >> a</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>ef2c3dcf-449e-4ad1-8ed4-9982756dc954</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cart_quantity_delete</value>
+      <webElementGuid>2c05e439-b7e7-4f2b-89f4-2e6a6fbac73a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-product-id</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>c1e6951c-7e53-4d99-af10-73979ca0bf9b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;product-1&quot;)/td[@class=&quot;cart_delete&quot;]/a[@class=&quot;cart_quantity_delete&quot;]</value>
+      <webElementGuid>a3fabce5-c9e6-4935-8c52-6b5518d3235d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='product-1']/td[6]/a</value>
+      <webElementGuid>a0ce469d-17a7-45b1-abbd-43e312e4d6b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Blue Top'])[1]/following::a[1]</value>
+      <webElementGuid>ae0c72be-93fd-41ca-957e-f2c8b12dc640</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total'])[1]/following::a[3]</value>
+      <webElementGuid>83f61636-bd7e-4a88-b992-4721b61c056d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cart is empty!'])[1]/preceding::a[1]</value>
+      <webElementGuid>008458c2-8d73-4719-b96a-63f619fd18fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='here'])[1]/preceding::a[1]</value>
+      <webElementGuid>39bf50a3-9961-4bef-8dec-6618ea5d2c14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[6]/a</value>
+      <webElementGuid>87a2074b-767c-4d2e-b1ba-e2ff195aa1fe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
