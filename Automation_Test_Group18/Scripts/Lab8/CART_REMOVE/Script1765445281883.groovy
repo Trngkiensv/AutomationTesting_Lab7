@@ -75,4 +75,3 @@ WebUI.verifyElementText(emptyCartMessageObject, 'Cart is empty! Click here to bu
 WebUI.comment('Xác nhận thành công: Thông báo "Cart is empty! Click here to buy products" đã hiển thị.')
 
 WebUI.comment('KẾT THÚC KIỂM TRA XÁC NHẬN')
-WebUI.closeBrowser()
