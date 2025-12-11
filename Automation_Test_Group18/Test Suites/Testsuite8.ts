@@ -12,70 +12,84 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>1a59d4a7-024b-416f-97c4-501a6e03eec9</testSuiteGuid>
    <testCaseLink>
-      <guid>bbab1c0d-effc-49cd-ac36-80e1d2ff968d</guid>
+      <guid>527d5d04-157a-4c49-9d86-d782dcde48dd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Lab8/CART_REMOVE</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>95086a15-ca77-45d6-9058-f27b823a0d78</guid>
+      <guid>0a771a06-2ddd-4548-a2cd-397026b28f2c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Lab8/CATEGORY_REVIEW</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3e58526f-3cb9-4664-a4db-84d821ebb4bd</guid>
+      <guid>8b592016-f64c-4f49-b443-d594ef38bea0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Lab8/LOGIN_INCORRECT_SUM</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>7ea39a82-7478-468a-a110-d249ce375fb7</guid>
+      <guid>2cff69db-6e50-47b6-8742-97b875ba91e0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Lab8/LOGIN_SUCCESS</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>120d27bf-f5af-4886-9593-d1ce6423969d</guid>
+      <guid>e06cf161-72bc-45fb-8baf-1431d239dbcf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Lab8/LOGOUT_FUNCTION</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>fd69714f-f98f-4ac1-b29c-bf362106eae6</guid>
+      <guid>0489fdb1-6e2b-437a-86d5-07a85b6551f2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Lab8/Register</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c3fcb82e-120a-40f2-a6ab-70d866f84324</guid>
+      <guid>1fe8dbbe-bfee-4aa6-9754-b4aa1b16a5d1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Lab8/SearchProduct</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>ac5321eb-f6cd-4f6f-af0c-caf043b4bbe1</guid>
+      <guid>5a7c2880-c421-4969-a1b6-affe82ee6a72</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Lab8/SIGNUP_EXISTED_SUM</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>7234e0e8-755d-4a80-9e7f-cb841e2735f1</guid>
+      <guid>5d4e80b8-eb23-4ff1-b0a6-ee81c1d73871</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Lab8/TC_AddReview</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>334668e4-1704-42da-9636-6c731e598b50</guid>
+      <guid>58da7b1e-7280-4f40-ac29-0a614b2d80d2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lab8/TC_Contact</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b8615338-ec9a-4e36-89f0-7e0d3c917cd7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lab8/TC_Product</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>74e23375-688e-4955-b439-ba56adc89346</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Lab8/TC_SearchProductAndVerifyCartAfterLogin</testCaseId>
