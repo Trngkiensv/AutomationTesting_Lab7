@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DowloadInvoice</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>82a9f420-476a-48a1-bfb8-e87a7b4e2fa8</testCaseGuid>
+</TestCaseEntity>
