@@ -64,3 +64,4 @@ WebUI.verifyElementText(menTshirtsHeading, 'MEN - TSHIRTS PRODUCTS', FailureHand
 WebUI.comment('Validation thành công: Tiêu đề nội dung là "MEN - TSHIRTS PRODUCTS".')
 
 WebUI.click(menTshirtsHeading)
+WebUI.closeBrowser()
