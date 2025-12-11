@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LOGOUT_FUNCTION</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>92ad8989-4e56-4c71-afcc-aa029b665d97</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LOGIN_INCORRECT_SUM</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8f89e390-8b4d-4b91-a370-7fdcbabb9b46</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SIGNUP_EXISTED_SUM</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8ee35ccf-9cdf-49f6-bcff-03c0848d05e1</testCaseGuid>
+</TestCaseEntity>
